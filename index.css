@@ -1,0 +1,28 @@
+body {
+    background-color: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  table {
+    border: 2px solid black;
+    width: 600px;
+    margin: 0px auto;
+    text-align: justify;
+    font-size: 18px;
+  }
+  tr {
+    display: table-row;
+  }
+  td {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+  }
+  
+  thead {
+    background-color: forestgreen;
+  }
+  
+  h1 {
+    text-align: center;
+    color: forestgreen;
+    text-transform: uppercase;
+  }
