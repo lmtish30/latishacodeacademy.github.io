@@ -1,0 +1,82 @@
+div {
+    display: block;
+  }
+  
+  .container {
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  
+  .colors-container {
+    width: 100%;
+  }
+  
+  .color-box {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    width: 33%;
+    min-height: 100px;
+  }
+  
+  .darkslate-grey {
+    background-color: #2f4f4f;
+    color: #fff;
+  }
+  
+  .darkslate-blue {
+    background-color: #483d8b;
+    color: #fff;
+  }
+  
+  .firebrick {
+    background-color: #b22222;
+    color: #fff;
+  }
+  
+  .font-box {
+    display: inline-block;
+    width: 33%;
+  }
+  
+  .font-label {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  
+  p {
+    display: block;
+  }
+  
+  .regular-sofadi {
+    font-style: normal;
+    font-family: "Sofadi One", sans-serif;
+  }
+  
+  .regular-gowun {
+    font-style: normal;
+    font-family: "Gowun Batang", sans-serif;
+  }
+  
+  .bold-gowun {
+    font-style: bold;
+    font-weight: 700;
+    font-family: "Gowun Batang", sans-serif;
+  }
+  
+  .regular-protest {
+    font-style: normal;
+    font-family: "Protest Guerrilla", sans-serif;
+  }
+  
+  .style-panel h1 {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  .style-panel h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
