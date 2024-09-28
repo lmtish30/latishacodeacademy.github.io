@@ -1,0 +1,106 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-color: lightsteelblue;
+    background-image: url('marc-mueller-lwTSdfXfskE-unsplash.jpg');
+    background-size: cover;
+}
+ul {
+    list-style: none;
+    display: block;   
+    margin: 0;
+    float: right;
+    justify-items: flex-end;
+}
+
+li {
+    display: block;
+    text-align: right;
+}
+
+li a {
+    text-decoration: none;
+    color: midnightblue;
+}
+
+li a:hover {
+    color: sandybrown;
+    cursor: pointer;
+}
+
+.img1 {
+    height: 100px;
+    width: 100px;
+    background-size: cover;  
+}
+
+.img2 {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        background-image: url('bowling-alley-8770911_1280.png');
+        height: 100px auto;
+        width: 100px;
+        display: block;
+        margin-left: 10px;
+    }
+}
+
+.nav-bar {
+    padding: 1rem;
+}
+
+.intro-container h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.summary-container {
+    padding: 2rem;
+}
+
+.summary-container img {
+    height: 400px;
+    width: 700px;
+    float: right;
+}
+
+.summary-container h2 {
+    color: midnightblue;
+    font-family: "Spicy Rice";
+}
+
+.testimonial-container {
+    padding-top: 4rem;
+    display: inline-block;
+}
+
+.testimonial-container h1 {
+    color:bisque;
+    font-family: "Space Grotesk";
+}
+
+.testimonial-container p {
+    color: rosybrown;
+    flex-wrap: wrap;
+}
+
+.photos-container img {
+    height: 400px;
+    width: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+    .join-container p {
+        display: none;
+    }
+}
