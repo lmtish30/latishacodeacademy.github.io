@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    padding: 0; 
+    font-family: "Playwrite DE Grund";
+    height: 100%;
+    display: grid;
+    color: lavender;
+    background-color: darkslateblue;
+  }
+  
+  #sunshine {
+    background-image:
+    url('flowers-5541118_1280.jpg');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+  }
+  
+  ul {
+    text-align: right;
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    justify-items: stretch;
+  }
+
+ img {
+    margin: 10px auto;
+    height: 300px;
+    width: 300px;
+  } 
+
+  /*Header Section*/
+  .header {
+    padding: 30px 0px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .header li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header li a {
+    color: lavender;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+  }
+  
+  /*Jumbotron Section*/
+  .jumbotron {
+    max-width: 1200px;
+    margin-left: 50px;
+  }
+
+  .jumbotron h2 {
+    font-size: 50px;
+    margin-bottom: 70px;
+    }
+
+  p {
+    font-family: Montserrat;
+    font-size: 18px;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+
+  .spacer {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .overnight, .mommy-night {
+    color: darkslategray;
+  }
+
+/*Banner Section*/
+
+  .banner {
+    background-color: darkslateblue;
+    color: lemonchiffon;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /*Expertise Section*/
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #expertise {
+    padding: 20px;
+    background-color: goldenrod;
+    margin: 0;
+    text-align: center;
+  }
+
+  .container-two p {
+    color: darkslateblue;
+  }
+
+  /*Team Section*/
+
+  #team {
+    background-color: goldenrod;
+    text-align: center;
+  }
+
+  .container-three .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .container-three .col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /*Footer Section*/
+  footer {
+    padding: 60px 0px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .footer p {
+    font-size:12px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .footer p {
+        display: none;
+    }
+  }
