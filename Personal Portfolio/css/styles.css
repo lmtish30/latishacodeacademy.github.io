@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: midnightblue;
+    color: lightslategray
+}
+
+body {
+    background-color: black;
+    color: lightslategray;
+}
+
+.contact {
+    text-align: center;
+}
+
+#contact_info {
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.email, .phone {
+    padding: 20px;
+}
+
+#form {
+    padding-top: 60px;
+}
+
+li {
+    display: block;
+    width: 60px;
+    margin: 0;
+    padding: 8px 16px;
+}
+
+li:hover {
+    background-color: whitesmoke;
+    color: lightslategray;
+}
+
+#nav_item {
+    list-style: none;
+}
+
+
+
+
